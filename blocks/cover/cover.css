@@ -2,32 +2,27 @@
     margin: 94px 0 0;
     padding: 0;
     max-width: 100%;
-    max-height: 740px;
+    min-height: 740px;
     position: relative;
-}
-
-.cover:hover .cover__overlay {
-    background: #2A2C2F;
-    opacity: 0.3;
 }
 
 @media (max-width: 1279px) {
     .cover {
       margin: 94px 0 0;
-        max-height: 640px;
+        min-height: 640px;
     }
   }
   
   @media (max-width: 1023px) {
     .cover {
         margin: 88px 0 0;
-        max-height: 480px;
+        min-height: 480px;
     }
   }
   
   @media (max-width: 767px) {
     .cover {
         margin: 65px 0 0;
-        max-height: 200px;
+        min-height: 200px;
     }
   }

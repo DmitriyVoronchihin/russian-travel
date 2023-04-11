@@ -4,7 +4,8 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: end;
+    align-items: flex-end;
+    outline: 1px solid red;
 }
 
 @media (max-width: 1279px) {
