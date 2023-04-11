@@ -9,11 +9,6 @@
     padding: 0;
 }
 
-figure {
-  margin: 0;
-  padding: 0;
-}
-
 @media (max-width: 1279px) {
   .page {
     max-width: 1024px;
