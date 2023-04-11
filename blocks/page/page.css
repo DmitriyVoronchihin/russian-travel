@@ -1,0 +1,28 @@
+.page {
+    background-color: #2A2C2F;
+    color: #FFF;
+    margin: 0 auto;
+    max-width: 1184px;
+    min-width: 320px;
+    font-family: 'Inter';
+    font-style: normal;
+    padding: 0;
+}
+
+@media (max-width: 1279px) {
+  .page {
+    max-width: 1024px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .page {
+    max-width: 768px;
+  }
+}
+
+@media (max-width: 767px) {
+  .page {
+    max-width: 320px;
+  }
+}
